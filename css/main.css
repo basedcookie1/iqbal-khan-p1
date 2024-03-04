@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Lora;
+    src: url(../assets/Lora/static/Lora-Regular.ttf);
+  }
+
+  body{
+    font-family: 'Lora', sans-serif;
+    margin: 0px 15px;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    padding: 15px 5%;
+    border-bottom: 2px solid rgb(123, 123, 123);
+  }
+
+  nav img{
+    width: 100px;
+    margin-right: 30px;
+  }
+
+  nav h1{
+    display: inline-block;
+    margin: 0px;
+    font-size: 30px;
+  }
+
+  nav div#rtNav{
+    margin-left: auto;
+  }
+
+  nav div#rtNav a{
+    font-size: 18px;
+    padding: 10px 12px;
+    color: black;
+    text-decoration: none;
+    height: auto;
+  }
+
+  nav div#rtNav a.middleLink{
+    border-left: 2px solid rgb(123, 123, 123);
+    border-right: 2px solid rgb(123, 123, 123);
+  }
+
+nav div#rtNav a:hover{
+    font-weight: bold;
+}
