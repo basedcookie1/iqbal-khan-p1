@@ -1,0 +1,24 @@
+Requirements:
+
+Make a website for a Soap Business with the capability to advertise, and purchase the product as well as contact the business.
+
+Elements the website will have in order:
+- Navigation bar
+	-Create an <img> tage for the logo image
+	-Create an anchor element for each navigation bar link
+- Header Image
+	-Find a suitable header image at least 500px wide
+- Header Description
+	-Create a bulleted list
+	-Include key business information in the list
+	-Make list appear on the right side of the image with a good spacing
+- Product Image
+	-Product image needs to be at least 150px wide
+- Product Description
+	-Come up with a short description under the product image
+- Buy Product button
+	-Fetch the price from the database file using Javascript
+	-Make the buy now button add item to the cart
+- Contact information
+	-Add information in a table created to organice contact information
+	-Add phone, email and social media info into table

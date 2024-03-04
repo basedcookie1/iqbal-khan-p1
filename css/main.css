@@ -1,7 +1,11 @@
 @font-face {
     font-family: Lora;
     src: url(../assets/Lora/static/Lora-Regular.ttf);
-  }
+}
+@font-face {
+    font-family: Lora-I;
+    src: url(../assets/Lora/static/Lora-Italic.ttf);
+}
 
   body{
     font-family: 'Lora', sans-serif;
@@ -9,6 +13,7 @@
   }
 
   nav{
+    background-color: blueviolet;
     display: flex;
     align-items: center;
     padding: 15px 5%;
@@ -23,7 +28,13 @@
   nav h1{
     display: inline-block;
     margin: 0px;
-    font-size: 30px;
+    font-size: 32px;
+    font-family: 'Lora-I';
+  }
+
+  nav h1 i{
+    font-family: 'Lora-I';
+    margin: 0px 10px;
   }
 
   nav div#rtNav{
@@ -31,8 +42,9 @@
   }
 
   nav div#rtNav a{
-    font-size: 18px;
-    padding: 10px 12px;
+    font-size: 20px;
+    margin: 5px 0px;
+    padding: 5px 12px;
     color: black;
     text-decoration: none;
     height: auto;
@@ -45,4 +57,81 @@
 
 nav div#rtNav a:hover{
     font-weight: bold;
+}
+
+header{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(123, 123, 123);
+}
+
+header div#headerR ul{
+    list-style-type: none;
+}
+
+header div#headerR ul li{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+header div#headerL img{
+    width: 450px;
+    margin-right: 50px;
+}
+
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid rgb(123, 123, 123);
+}
+
+section div.product{
+    display: inline-block;
+}
+
+section div.product img{
+    width: 230px;
+}
+
+section div.product .buyBox{
+    display: flex;
+    align-items: center;
+}
+
+section div.product .buyBox a{
+    margin-left: auto;
+}
+
+section div.product .buyBox a:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table{
+    display: inline-block;
+    margin: 0px auto;
+    text-align: left;
+}
+
+table thead th{
+    padding: 30px 0px;
+    font-size: 18px;
+}
+
+table tbody td{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+table tbody td:first-child{
+    width: 180px;
 }
